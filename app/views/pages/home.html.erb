@@ -44,7 +44,7 @@
   document.getElementById('btn-buy').addEventListener('click', function(e) {
         handler.open({
         name: 'Learn Rails',
-          description: '<%= @product.title %> ($<%= @product.price %>)',
+          description: 'Buy this item for (4.99)'
           amount: document.getElementById("amount").value
       });
       e.preventDefault();

@@ -17,7 +17,7 @@ gem 'pg', group: :production
 
 #12 factor for Heroku
 gem 'rails_12factor', group: :production
-
+gem 'figaro'
 #stripe for taking payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #add bootstrap
