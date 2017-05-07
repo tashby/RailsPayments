@@ -1,5 +1,10 @@
 class ChargesController < ApplicationController
 
+Stripe.api_key = ENV['SECRET_KEY']
+
+  def new
+  end
+
       def create
       # Amount in cents
 
